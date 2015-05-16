@@ -6,9 +6,33 @@
  * Made By MaterializeCSS.com
  */
 
+nav {
+    height: 128px;
+    background: rgba(43, 43, 43, 0);
+    box-shadow: none;
+}
+nav ul {
+    height: 128px;
+}
+nav ul li {
+    line-height: 128px;
+}
+nav .brand-logo img {
+    height: 128px;
+    padding: 30px 0 30px 0;
+}
+.margin-top-minus-64 {
+    margin-top: -128px;
+}
+.z-index-minus {
+    z-index: -1;
+}
+#index-banner {
+    padding-top:90px;
+}
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #fff;
 }
 
 p {
@@ -16,7 +40,7 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+//  color: #26a69a;
 }
 
 .parallax-container {
@@ -32,16 +56,16 @@ p {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    top: 100%;
   }
   #index-banner .section {
-    top: 10%;
+    top: 20%;
   }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
-    top: 0;
+    top: 20%;
   }
 }
 
