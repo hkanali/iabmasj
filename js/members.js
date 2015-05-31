@@ -11,6 +11,9 @@ $(function(){
                 continue;
             }
             var member = members[i];
+            if (member.length == 1) {
+                continue;
+            }
             if (i % 2 == 1) {
                 $cardsRow = $('<div class="row">');
                 $membersContainer.append($cardsRow);

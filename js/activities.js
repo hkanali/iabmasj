@@ -11,6 +11,9 @@ $(function(){
                 continue;
             }
             var activity = activities[i];
+            if (activity.length == 1) {
+                continue;
+            }
             if (i % 2 == 1) {
                 $cardsRow = $('<div class="row">');
                 $activitiesContainer.append($cardsRow);
