@@ -56,16 +56,20 @@ $(function(){
             for (var iDescriptions = 3; iDescriptions < activity.length; iDescriptions++) {
                 descriptions += '' + activity[iDescriptions] + '<br/>';
             }
-            $cardsRow.append(''
-                + '    <div class="col s12 m6">'
-                + '      <div class="card">'
+            var cardImage = '';
+            if (activity[2]) {
+                cardImage = ''
                 + '        <div class="card-image">'
                 + '          <img src="images/' + activity[2] + '">'
                 + '          <span class="card-title">@' + activity[1]  + '</span>'
                 + '        </div>'
+            }
+            $cardsRow.append(''
+                + '    <div class="col s12 m6">'
+                + '      <div class="card">'
+                + cardImage
                 + '        <div class="card-content">'
                 + '          <span class="card-title activator grey-text text-darken-4">' + activity[0] + ' <i class="mdi-navigation-more-vert right"></i></span>'
-                + '          <p><a href="#">Email: example@example.com</a></p>'
                 + '        </div>'
                 + '        <div class="card-reveal">'
                 + '          <span class="card-title grey-text text-darken-4"><i class="mdi-navigation-close right"></i></span>'
