@@ -13,7 +13,7 @@ $(function() {
      + '         </ul>'
      + '       </div>'
      + '       <div class="col l6 s12">'
-     + '         <h5 class="white-text">連絡先 / Contacts</h5>'
+     + '         <h5 class="white-text">連絡先 / Contact</h5>'
      + '         <ul>'
      + '           <li><a class="white-text" href="#!">IABMAS 日本グループ / IABMAS Japan Group</a></li>'
      + '           <li><a class="white-text" href="#!">Email: </a></li>'
