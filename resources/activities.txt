@@ -1,0 +1,6 @@
+タイトル,場所,画像,概要1,概要2,..... 文字化けする場合はこちら -> http://www.xucker.jpn.org/pc/textutf.html
+#5 Conference of IABMAS JAPAN,東京,background.jpg,説明1行目,説明2行目,説明3行目,説明4行目,説明5行目
+#4 Conference of IABMAS JAPAN,東京,background.jpg,説明1行目,説明2行目,説明3行目,説明4行目,説明5行目
+#3 Conference of IABMAS JAPAN,東京,background.jpg,説明1行目,説明2行目,説明3行目,説明4行目,説明5行目
+#2 Conference of IABMAS JAPAN,東京,background.jpg,説明1行目,説明2行目,説明3行目,説明4行目,説明5行目
+#1 Conference of IABMAS JAPAN,東京,background.jpg,説明1行目,説明2行目,説明3行目,説明4行目,説明5行目
