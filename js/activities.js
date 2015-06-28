@@ -35,7 +35,7 @@ $(function(){
                 + '      <div class="card">'
                 + cardImage
                 + '        <div class="card-content">'
-                + '          <span class="card-title activator grey-text text-darken-4">' + activity[0] + ' <i class="mdi-navigation-more-vert right"></i></span>'
+                + '          <span class="card-title activator grey-text text-darken-4">' + activity[0] + ' <i class="button-detail right">記事の詳細はこちら</i></span>'
                 + '        </div>'
                 + '        <div class="card-reveal">'
                 + '          <span class="card-title grey-text text-darken-4"><i class="mdi-navigation-close right"></i></span>'

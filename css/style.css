@@ -15,6 +15,12 @@ nav .brand-logo img {
     padding: 28px 0 28px 0;
     margin-left: -20px;
 }
+nav ul.hide-on-med-and-down {
+    margin-right: 110px;
+}
+nav ul a {
+    padding: 0 9px;
+}
 .margin-top-minus-64 {
     margin-top: -128px;
 }
@@ -42,11 +48,14 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-
 .parallax-container .section {
   width: 100%;
 }
 
+.button-detail {
+  font-size: 14px;
+  color: #039be5;
+}
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
@@ -54,6 +63,9 @@ p {
   }
   .parallax-container .section {
     top: 20%;
+  }
+  nav .brand-logo.right {
+    display: none;
   }
 }
 
@@ -66,7 +78,9 @@ p {
       padding: 40px 0px 40px 80px;
       margin-left: -20px;
   }
-
+  nav .brand-logo.right {
+    display: none;
+  }
 }
 
 .icon-block {
