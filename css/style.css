@@ -15,11 +15,9 @@ nav .brand-logo img {
     padding: 28px 0 28px 0;
     margin-left: -20px;
 }
+
 nav ul.hide-on-med-and-down {
-    margin-right: 110px;
-}
-nav ul a {
-    padding: 0 9px;
+    margin-right: 160px;
 }
 .margin-top-minus-64 {
     margin-top: -128px;
@@ -56,6 +54,29 @@ p {
   font-size: 14px;
   color: #039be5;
 }
+@media only screen and (max-width : 1570px) {
+  nav ul.hide-on-med-and-down {
+    margin-right: 130px;
+  }
+  nav ul a {
+    padding: 0 12px;
+  }
+}
+
+@media only screen and (max-width : 1400px) {
+  nav ul.hide-on-med-and-down {
+    margin-right: 90px;
+  }
+  nav .brand-logo img {
+      height: 128px;
+      padding: 35px 0px 35px 80px;
+      margin-left: -20px;
+  }
+  nav ul a {
+    padding: 0 9px;
+  }
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
