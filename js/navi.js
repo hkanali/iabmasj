@@ -14,7 +14,7 @@ $(function() {
      + '     <div class="container">'
      + '         <div class="nav-wrapper">'
      + '             <a id="logo-container" href="index.html" class="brand-logo"><img src="images/logo.png" alt="IABMAS JAPAN Logo Image"></a>'
-     + '             <a href="index.html" class="brand-logo right"><img src="images/logo_iabmas.png" alt="IABMAS Logo Image"></a>'
+     + '             <a href="http://iabmas.org/" target="_blank" class="brand-logo right"><img src="images/logo_iabmas.png" alt="IABMAS Logo Image"></a>'
      + '             <ul class="right hide-on-med-and-down">'
      + '               <li><a href="index.html" class="text-white">目的</a></li>'
      + '               <li><a href="iabmas.html" class="text-white">IABMAS</a></li>'
